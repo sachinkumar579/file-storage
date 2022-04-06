@@ -181,6 +181,10 @@ export default function CustomizedMenus(props) {
           disableElevation
           onClick={handleClick}
           endIcon={<KeyboardArrowDownIcon />}
+          style={{
+            background: "linear-gradient(to bottom right, #4253D1, #AE9EE2)",
+            color: "white",
+          }}
         >
           Create
         </Button>
